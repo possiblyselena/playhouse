@@ -2,53 +2,61 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-[url('/ikeabackground.jpg')] font-sans dark:bg-black">
+    <div className="flex flex-col flex-1 items-center justify-center bg-[url('/ikeabackground.jpg')] font-sans dark:bg-black w-full">
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16  sm:items-start">
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            I am editing the page.tsx file 
+        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left w-full">
+          <button className="bg-blahaj text-white font-bold py-2 px-4 rounded center-right">
+            Go to the Gallery!
+          </button>
+          <Image
+            className="hover:scale-105 transition-transform duration-300"
+            src="/playhouselogo.svg"
+            alt="Playhouse Logo"
+            width={1000}
+            height={24}
+          />
+          <h1 className="max-w-full text-3xl font-semibold leading-10 tracking-tight text-black ">
+            Design a Room, add it to the gallery, and make a friend!
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/ikeabackground.jpg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          <div className="text-black bg-macaroni rounded-lg p-4 font-semibold">
+            <a><button>RSVP Now!</button></a>
+          </div>
+          <div>
+            {/*Generate a room idea*/}
+            <div className="bg-blahaj rounded-lg p-4 text-white">
+              <h1 className="font-bold text-4xl">Don't know what to design?</h1>
+              <button className="bg-macaroni   text-blahaj font-bold py-2 px-4 rounded">
+                Generate a Room Idea
+              </button>
+              <input>
+              </input>
+            </div>
+            {/*How to get started*/}
+            <div className="bg-blue-100 rounded-lg p-4 grid grid-cols-2 gap-4">
+              <div className="text-black">
+                <p>Design your own room!</p>
+                <p>1. Follow the Guide to create your space on Onshape</p>
+                <p>2. Track with the Onshape Hackatime Extension</p>
+                <p>3. Design your own furniture to make it complete</p>
+                <p>4. Add your project to the gallery!</p>
+                <p>5. Get a grant for your own mini figure to live in your box!</p>
+              </div>
+              <div>
+                <Image 
+                  src="/working1.png"
+                  alt="Working Image"
+                  width={300}
+                  height={500}
+                />
+                <Image
+                  src="/working.png"
+                  alt="Working Image"
+                  width={300}
+                  height={500}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
