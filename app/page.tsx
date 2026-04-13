@@ -58,12 +58,12 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="bg-macaroni text-blahaj font-bold py-2 px-4 rounded items-center flex flex-col">
-                <button className="bg-creamsicle text-blahaj font-bold py-2 px-4 rounded text-3xl hover:scale-105 transition-transform duration-300"  onClick={generateRoomIdea}>
+              <div className="bg-macaroni text-blahaj font-bold py-2 px-4 rounded flex h-full flex-col items-center justify-center">
+                <button className="bg-creamsicle text-blahaj font-bold py-2 px-4 rounded text-3xl hover:scale-105 transition-transform duration-300" onClick={generateRoomIdea}>
                   Generate a Room Idea
                 </button>
-                <div className="items-center justify-center flex flex-col">
-                  <p className="mt-3 text-4xl font-semibold text-white">{roomIdea}</p>
+                <div className="flex w-full flex-col items-center justify-center">
+                  <p className="mt-3 text-4xl font-semibold text-white text-center w-full">{roomIdea}</p>
                 </div>
               </div>
             </div>
@@ -82,8 +82,9 @@ export default function Home() {
                 <Image
                   src="/working.png"
                   alt="Working Image"
-                  width={300}
-                  height={500}
+                  width={400}
+                  height={700}
+                  className="object-cover"
                 />
               </div>
             </div>
@@ -92,17 +93,18 @@ export default function Home() {
               <div className="bg-macaroni rounded-lg p-6 text-blahaj">
                 <h1 className="font-bold text-2xl">Requirements</h1>
                 <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
-                  <div>
-                    <p className="mb-3">★ Files submitted must be .step and assembly files .gltf</p>
-                    <p>★ Hour tracking can be used with the Onshape Hackatime Extension, however if you choose.</p>
+                  <div className="text-xl space-y-4">
+                    <p>★ Files submitted must be .step and assembly files .gltf</p>
+                    <p>★ Hour tracking can be used with the Onshape Hackatime Extension, however if you choose to use Blender, Solidworks, Fusion360, etc., you are required to use <a href="https://lapse.hackclub.com/">Lapse</a>.</p>
+                    <p>★ You can use other designs from the Gallery, however your room needs to be original and have atleast 5 items designed by yourself.</p>
                   </div>
-                  <div className="rounded-2xl overflow-hidden bg-white/10 p-2">
+                  <div className="align-bottom flex items-end justify-center">
                     <Image
                       src="/instructions.png"
                       alt="Instructions"
-                      width={300}
+                      width={700}
                       height={500}
-                      className="rounded-2xl"
+                      className="object-cover"
                     />
                   </div>
                 </div>
@@ -110,8 +112,24 @@ export default function Home() {
               <div className="bg-blahaj w-full rounded-lg p-6">
                 <h1 className="font-bold text-2xl">Get cool prizes to live in your room!</h1>
                 <p className="mt-4 text-xl">
-                  Submit your room, earn rewards, and get featured in the gallery with mini figures and accessories.
+                  Not Limited to Smiskis! (but they are really cute)
                 </p>
+                <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
+                  <Image
+                    src="/smiski.png"
+                    alt="Smiski"
+                    width={300}
+                    height={500}
+                    className="rounded-2xl mt-4"
+                  />
+                  <Image
+                    src="/birthday.png"
+                    alt="birthday"
+                    width={300}
+                    height={500}
+                    className="rounded-2xl mt-4"
+                  />
+                </div>
               </div>
             </div>
           <div className="text-black bg-macaroni rounded-lg p-4 font-semibold hover:scale-105 transition-transform duration-300">
