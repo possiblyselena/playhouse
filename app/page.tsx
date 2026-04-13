@@ -70,7 +70,7 @@ export default function Home() {
 
             {/*How to get started*/}
             <div className="bg-blue-100 w-full rounded-lg p-4 grid grid-cols-2 gap-4">
-              <div className="text-black">
+              <div className="text-blahaj">
                 <h1 className="font-bold text-2xl">Design your own room!</h1>
                 <p className="text-2xl my-3">1. Follow the Guide (coming soon) to create your room to fill on Onshape</p>
                 <p className="text-2xl my-3">2. Track with the Onshape Hackatime Extension</p>
@@ -88,26 +88,35 @@ export default function Home() {
               </div>
             </div>
             {/*Requirements*/}
-            <div className="bg-macaroni rounded-lg p-4 text-blahaj w-full">
-              <h1 className="font-bold text-2xl"> Requirements</h1>
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                    <p>Files submitted must be .step and assembly files .gltf</p>
-                    <p>Hour tracking can be used with the Onshape Hackatime Extension, however if you choose </p>
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 w-full">
+              <div className="bg-macaroni rounded-lg p-6 text-blahaj">
+                <h1 className="font-bold text-2xl">Requirements</h1>
+                <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
+                  <div>
+                    <p className="mb-3">★ Files submitted must be .step and assembly files .gltf</p>
+                    <p>★ Hour tracking can be used with the Onshape Hackatime Extension, however if you choose.</p>
+                  </div>
+                  <div className="rounded-2xl overflow-hidden bg-white/10 p-2">
+                    <Image
+                      src="/instructions.png"
+                      alt="Instructions"
+                      width={300}
+                      height={500}
+                      className="rounded-2xl"
+                    />
+                  </div>
                 </div>
-                <Image
-                  src="/instructions.png"
-                  alt="i Image"
-                  width={300}
-                  height={500}
-                />
+              </div>
+              <div className="bg-blahaj w-full rounded-lg p-6">
+                <h1 className="font-bold text-2xl">Get cool prizes to live in your room!</h1>
+                <p className="mt-4 text-xl">
+                  Submit your room, earn rewards, and get featured in the gallery with mini figures and accessories.
+                </p>
               </div>
             </div>
-            {/*Don't know where to start?*/}
-           
-          </div>
           <div className="text-black bg-macaroni rounded-lg p-4 font-semibold hover:scale-105 transition-transform duration-300">
             <a href="mailto:selenan@events.hackclub.com?subject=Tell%20Me%20More!"><button>Learn more!</button></a>
+          </div>
           </div>
         </div>
       </main>
