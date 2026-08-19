@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Script from "next/script";
 import { useState } from "react";
+import { useRef } from "react";
 
 const ModelViewer = "model-viewer" as any;
 
@@ -9,7 +10,7 @@ export default function Home() {
 
   const [roomIdea, setRoomIdea] = useState("");
 
-  const adjectives = ["Cozy", "Modern", "Futuristic", "Spooky", "Magical", "Galaxy", "Rainbow", "Daydreaming", "Scrappy", "Nighttime", "Underwater", "Space", "Nature", "Vintage", "Whimsical", "Winter", "Spring", "Summer", "Autumn",];
+  const adjectives = ["Cozy", "Modern", "Futuristic", "Spooky", "Magical", "Galaxy", "Rainbow", "Dreamy", "Scrappy", "Nighttime", "Underwater", "Space", "Nature", "Vintage", "Whimsical", "Winter", "Spring", "Summer", "Autumn",];
   const rooms = ["Library", "Bakery", "Living Room", "Kitchen", "Garden", "Treehouse", "Theatre", "Cafe", "Restaurant", "Bedroom", "Gym"]
 
   function generateRoomIdea() {
@@ -24,6 +25,11 @@ export default function Home() {
       <main className="flex flex-1 w-full flex-col items-start justify-between py-32 px-8 sm:px-16">
         <div className="flex flex-col items-start gap-6 text-left w-full">
           <div className=" grid grid-cols-2 items-start gap-6 text-left w-full">
+            <header className="max-w-full margin-10 flex flex-row items-center justify-between gap-6 text-left w-full bg-macaroni rounded-lg p-4 font-semibold hover:scale-105 transition-transform duration-300">
+              <a href="" className="bg-creamsicle text-blahaj font-bold py-2 px-4 rounded hover:scale-105 transition-transform duration-300">Home</a>
+              <a href="/gallery" className="bg-creamsicle text-blahaj font-bold py-2 px-4 rounded hover:scale-105 transition-transform duration-300">Gallery</a>
+              <a href="/guide" className="bg-creamsicle text-blahaj font-bold py-2 px-4 rounded hover:scale-105 transition-transform duration-300">Guide</a>
+            </header>
             <div>
               <Image
                 className="hover:scale-105 transition-transform duration-300"
@@ -133,7 +139,9 @@ export default function Home() {
               </div>
             </div>
           <div className="text-black bg-macaroni rounded-lg p-4 font-semibold hover:scale-105 transition-transform duration-300">
-            <a href="mailto:selenan@events.hackclub.com?subject=Tell%20Me%20More!"><button>Learn more!</button></a>
+            <h1>
+              This program is run by Selena @ Hack Club!
+            </h1>
           </div>
           </div>
         </div>
