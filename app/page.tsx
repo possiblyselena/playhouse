@@ -3,6 +3,7 @@ import Image from "next/image";
 import Script from "next/script";
 import { useState } from "react";
 import { useRef } from "react";
+import { Navbar } from "./components/Navbar";
 
 const ModelViewer = "model-viewer" as any;
 
@@ -24,12 +25,8 @@ export default function Home() {
     <div className="flex flex-col flex-1 items-start justify-center bg-[url('/ikeabackground.jpg')] font-sans dark:bg-black w-full">
       <main className="flex flex-1 w-full flex-col items-start justify-between py-32 px-8 sm:px-16">
         <div className="flex flex-col items-start gap-6 text-left w-full">
-          <div className=" grid grid-cols-2 items-start gap-6 text-left w-full">
-            <header className="max-w-full margin-10 flex flex-row items-center justify-between gap-6 text-left w-full bg-macaroni rounded-lg p-4 font-semibold hover:scale-105 transition-transform duration-300">
-              <a href="" className="bg-creamsicle text-blahaj font-bold py-2 px-4 rounded hover:scale-105 transition-transform duration-300">Home</a>
-              <a href="/gallery" className="bg-creamsicle text-blahaj font-bold py-2 px-4 rounded hover:scale-105 transition-transform duration-300">Gallery</a>
-              <a href="/guide" className="bg-creamsicle text-blahaj font-bold py-2 px-4 rounded hover:scale-105 transition-transform duration-300">Guide</a>
-            </header>
+          <Navbar/>
+          <div className=" grid grid-cols-2 items-start gap-6 text-left w-max items-center justify-between">
             <div>
               <Image
                 className="hover:scale-105 transition-transform duration-300"
@@ -97,11 +94,12 @@ export default function Home() {
             {/*Requirements*/}
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 w-full">
               <div className="bg-macaroni rounded-lg p-6 text-blahaj">
-                <h1 className="font-bold text-2xl">Requirements</h1>
+                <h1 className="font-bold text-2xl">Submission Requirements</h1>
                 <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
                   <div className="text-xl space-y-4">
+                    <p></p>
                     <p>★ Files submitted must be .step and assembly files .gltf</p>
-                    <p>★ Hour tracking can be used with the Onshape Hackatime Extension, however if you choose to use Blender, Solidworks, Fusion360, etc., you are required to use <a href="https://lapse.hackclub.com/">Lapse</a>.</p>
+                    <p>★ All design hours must be tracked with <a href="https://lapse.hackclub.com/">Lapse</a> including art, cad, and assembly.</p>
                     <p>★ You can use other designs from the Gallery, however your room needs to be original and have atleast 5 items designed by yourself.</p>
                   </div>
                   <div className="align-bottom flex items-end justify-center">
@@ -115,6 +113,28 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+              <div className="bg-macaroni rounded-lg p-6 text-blahaj">
+                <h1 className="font-bold text-2xl">Design Requirements</h1>
+                <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
+                  <div className="text-xl space-y-4">
+                    <p></p>
+                    <p>★ Boxes must be 14cm x 14cm and 14cm and designed following the guide.</p>
+                    <p>★ All furnitiure must be printable. See (insert link for help)</p>
+                    <p>★ If adding art such as paintings or wallpaper, it cannot be AI-generated!</p>
+                  </div>
+                  <div className="align-bottom flex items-end justify-center">
+                    <Image
+                      src="/instructions.png"
+                      alt="Instructions"
+                      width={700}
+                      height={500}
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+              
               <div className="bg-blahaj w-full rounded-lg p-6">
                 <h1 className="font-bold text-2xl">Get cool prizes to live in your room!</h1>
                 <p className="mt-4 text-xl">

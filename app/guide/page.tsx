@@ -5,8 +5,10 @@ import { useState } from "react";
 
 export default function Home() {
     return (
-        <div>
-            <h1>This is where I'm going to put the guide when I make it, stay tuned!! (make furniture in the meantime)</h1>
+        <div className="bg-[url('/ikeabackground.jpg')] font-sans dark:bg-black w-full">
+            <nav>
+                <h1></h1>
+            </nav>
         </div>
     );
 }

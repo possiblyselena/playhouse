@@ -5,8 +5,9 @@ import { useState } from "react";
 
 export default function Home() {
     return (
-        <div>
-            <h1>Hello!</h1>
+        <div className="bg-[url('/ikeabackground.jpg')] font-sans dark:bg-black w-full">
+            <h1 className="text-black">Hello! These are completed projects for Playhouse! Click on them to view their repository.</h1>
+
         </div>
     );
 }
