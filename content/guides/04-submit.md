@@ -8,12 +8,12 @@ Once you submit your project, it'll go into review and once it's approved you ca
 
 ## Final checklist
 
-| Requirements                                                                  | Done? |
-| ----------------------------------------------------------------------------- | ----- |
-| Logged 7+ hours on Lapse and Hackatime.                                       |       |
-| You have a CAD folder with all your furniture .step files in your repo.       |       |
-| You have an art folder with all the drawn files.                              |       |
-| The readme.md has a good description and a photo of your render.              |       |
-| You have send a message in #playhouse with your repo and project description. |       |
+| Requirements                                                                                     | Done? |
+| ------------------------------------------------------------------------------------------------ | ----- |
+| Logged 7+ hours on Hackatime.                                                                    |       |
+| Made an assembly of your Playhouse.                                                              |       |
+| You have a CAD folder with all your furniture .step files in your repo and .svg of the assembly. |       |
+| You have an art folder with all the drawn files.                                                 |       |
+| The readme.md has a good description and a photo of your render.                                 |       |
 
 Once everything looks good, you can submit your design here at https://forms.hackclub.com/playhouse-design

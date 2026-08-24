@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <div className="bg-[url('/ikeabackground.jpg')] font-sans dark:bg-black w-full">
             <Navbar />
-            <h1 className="text-black">Hello! These are completed projects for Playhouse! Click on them to view their repository.</h1>
+            <h1 className="text-blahaj py-75 text-center font-bold text-3xl">This is still a Work in Progress, check back again later!</h1>
             <div>
 
             </div>

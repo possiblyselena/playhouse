@@ -42,4 +42,4 @@ You're probably asking, why can't I just make a box? It's take less space for sh
 
 ## Furniture
 
-The gallery isn't up yet, no one has submitted anything! As a placeholder I have added a link to my Pinterest board if you're having trouble finding inspiration.
+The gallery isn't up yet, no one has submitted anything! To help you think of ideas, look at the [Pinterest board](https://pin.it/16yJNtShb) I made!

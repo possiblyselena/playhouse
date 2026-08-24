@@ -6,9 +6,8 @@ There's two ways you can recieve your Smiski.
 
 - Everywhere else: I'm going to give you a grant to buy them!
 
-Fyi, You can only receive your smiski if you have either
+**You can only receive your smiski if you have either printed your room and assembled it.**
 
-- Printed your room and assembled it
-- You have ordered it through #print-legion and it's being shippped.
+There will be a form coming out soon so I know that you have a room!
 
-We're not going to condone any homeless Smiskis.
+(We're not going to condone any homeless Smiskis.)

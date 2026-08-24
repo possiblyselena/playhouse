@@ -34,19 +34,24 @@ export default function Home() {
                 width={1000}
                 height={24}
               />
-              <h1 className="max-w-full py-10 text-center text-3xl font-semibold leading-10 tracking-tight text-blahaj">
+              <div className="flex-rows-2 p-4">
+                <h1 className="max-w-full px-5 pb-1 pt-5 text-center text-3xl font-semibold leading-10 tracking-tight text-blahaj">
                 Design a Room, add it to the gallery, and make a friend!
               </h1>
+              <h2 className="px-4 pb-4 pt-0 text-xl text-blahaj">
+                Join <a href="https://hackclub.enterprise.slack.com/archives/C0BS4AWCTGA" className="underline">#playhouse</a> and start with the <a href="/guide" className="underline">guide</a>!
+              </h2>
+              </div>
             </div>
           </div>
             {/*How to get started*/}
-            <div className="bg-blue-100 w-full rounded-lg p-4 grid grid-cols-2 gap-4">
+            <div className="bg-blue-100 w-full rounded-lg pt-4 p-4 grid grid-cols-2 gap-4">
               <div className="text-blahaj p-4">
                 <h1 className="font-bold text-2xl">Design your own room!</h1>
-                <p className="text-2xl my-3 py-2">1. Follow the Guide to create your room to fill on <a href="https://www.onshape.com/">Onshape</a>.</p>
-                <p className="text-2xl my-3 py-2">2. Track your hours using <a href="https://www.lapse.hackclub.com/">Lapse</a>. </p>
+                <p className="text-2xl my-3 py-2">1. Follow the <a href="/guide" className="text-creamsicle underline">guide</a> to create your room to fill on <a href="https://www.onshape.com/">Onshape</a>.</p>
+                <p className="text-2xl my-3 py-2">2. Track your hours using <a href="https://www.lapse.hackclub.com/" className="text-creamsicle underline">Lapse</a>. </p>
                 <p className="text-2xl my-3 py-2">3. Design your own furniture and assemble. </p>
-                <p className="text-2xl my-3 py-2">4. Add your project to the gallery.</p>
+                <p className="text-2xl my-3 py-2">4. Add your project to the <a href="/gallery" className="text-creamsicle underline">gallery</a>.</p>
                 <p className="text-2xl my-3 py-2">5. Get a grant for your own Smiski to live in your box!</p>
               </div>
               <div>
@@ -59,9 +64,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            {/*Requirements*/}
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 w-full">
-              <div className="flex flex-col items-center gap-6 text-left w-full">
+              <div className="flex flex-col items-center gap-6 text-left w-full p-6">
                <div className="bg-blahaj rounded-lg p-4 text-white grid grid-cols-2 gap-4">
                 <div className="space-y-4">
                 <h1 className="font-bold text-4xl">Don't know what to design?</h1>
@@ -82,8 +85,7 @@ export default function Home() {
                   <p className="mt-3 text-4xl font-semibold text-white text-center w-full">{roomIdea}</p>
                 </div>
               </div>
-            </div>
-          </div>
+            </div>  
           </div>
            <FaqAccordion/>
         </div>

@@ -10,15 +10,15 @@ Seen something similar to Playhouse? Me too! I was inspired of the silly ones I 
 
 # Set up
 
-You can use whatever CAD software you're comfortable with aslong as you can export as .step files to slice. I reccomended using [Onshape](https://www.onshape.com/) as it can run in your browser. Once you create an account you can start designing!
+You can use whatever CAD software you're comfortable with aslong as you can export as .step files to slice. I reccomended using [Onshape](https://www.onshape.com/) as it can run in your browser and there's a [Hackatime Extension](https://hackatime.hackclub.com/docs/editors/onshape). Once you create an account you can start designing!
 
 ## Tracking your progress.
 
-You must submit your hackatime projects when you're finished. To track your progress with hackatime, you can use Lapse. You should be tracking the time spent on the box, furniture, art, and assembly.
+You must submit your hackatime projects when you're finished. If not using Onshape, track your progress with [Lapse](https://lapse.hackclub.com/). You should be tracking the time spent on the box, furniture, art, and assembly.
 
 ## What makes a valid submission?
 
-Examples of Bad Submissions (will be rejected and no smiski)
+Examples of Bad Submissions (will be rejected and no Smiski)
 
 - Random 3D shapes with no coherent theme.
 - Designing parts that are impossible to print.
@@ -30,4 +30,4 @@ Examples of good submissions
 - Pieces of furniture that are unique to the room.
 - Added prints for wallpapers, flooring, and items.
 
-A good Playhouse submission is thoughtful and fun! Pretend you're an interior designer and someone is commissioning you to build a nice room for the next tenant.
+A good Playhouse submission is thoughtful and fun, pretend you're an interior designer!
