@@ -32,7 +32,6 @@ export default function RootLayout({
         <PlausibleProvider src="https://plausible.io/js/pa-PcDvDUT4Zb9NzAW4drPB0.js">
           {children}
         </PlausibleProvider>
-        
       </body>
     </html>
   );

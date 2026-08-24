@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { GuideViewer } from "./GuideViewer";
 import { Navbar } from "../components/Navbar";
+import { FooterBar } from "../components/footerbar";
 
 const guidesDirectory = path.join(process.cwd(), "content", "guides");
 
@@ -28,6 +29,7 @@ export default async function GuidePage() {
             <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-6 py-12 sm:px-12">
                 <GuideViewer guides={guides} />
             </main>
+            <FooterBar/>
         </div>
     );
 }
