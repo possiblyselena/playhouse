@@ -1,7 +1,7 @@
+import PlausibleProvider from "next-plausible";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { PlausibleAnalytics } from "./components/PlausibleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,8 +29,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <PlausibleAnalytics />
-        {children}
+        <PlausibleProvider src="https://plausible.io/js/pa-PcDvDUT4Zb9NzAW4drPB0.js">
+          {children}
+        </PlausibleProvider>
+        
       </body>
     </html>
   );
