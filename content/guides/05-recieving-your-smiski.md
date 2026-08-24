@@ -2,9 +2,9 @@
 
 There's two ways you can recieve your Smiski.
 
-United States: I'm going to ship them to you directly!
+- United States: I'm going to ship them to you directly!
 
-Everywhere else: I'm going to give you a grant to buy them!
+- Everywhere else: I'm going to give you a grant to buy them!
 
 Fyi, You can only receive your smiski if you have either
 

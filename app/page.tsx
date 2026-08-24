@@ -22,6 +22,8 @@ export default function Home() {
   }
 
   return (
+
+    
     <div className="flex flex-col flex-1 items-start justify-center bg-[url('/ikeabackground.jpg')] font-sans dark:bg-black w-full">
       <Navbar/>
       <main className="flex flex-1 w-full flex-col items-start justify-between py-32 px-8 sm:px-16">
