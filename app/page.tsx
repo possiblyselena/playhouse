@@ -23,9 +23,9 @@ export default function Home() {
 
   return (
     <div className="flex flex-col flex-1 items-start justify-center bg-[url('/ikeabackground.jpg')] font-sans dark:bg-black w-full">
+      <Navbar/>
       <main className="flex flex-1 w-full flex-col items-start justify-between py-32 px-8 sm:px-16">
         <div className="flex flex-col items-start gap-6 text-left w-full">
-          <Navbar/>
           <div className=" grid grid-cols-2 items-start gap-6 text-left w-max items-center justify-between">
             <div>
               <Image
@@ -39,12 +39,6 @@ export default function Home() {
                 Design a Room, add it to the gallery, and make a friend!
               </h1>
             </div>
-              <Image
-                src="/room.png"
-                alt="Playhouse Logo"
-                width={700}
-                height={24}
-              />
           </div>
           
           <div className="flex flex-col items-center gap-6 text-left w-full">
@@ -75,8 +69,8 @@ export default function Home() {
             <div className="bg-blue-100 w-full rounded-lg p-4 grid grid-cols-2 gap-4">
               <div className="text-blahaj">
                 <h1 className="font-bold text-2xl">Design your own room!</h1>
-                <p className="text-2xl my-3">1. Follow the Guide (coming soon) to create your room to fill on Onshape</p>
-                <p className="text-2xl my-3">2. Track with the Onshape Hackatime Extension</p>
+                <p className="text-2xl my-3">1. Follow the Guide to create your room to fill on Onshape</p>
+                <p className="text-2xl my-3">2. Track your hours using lapse </p>
                 <p className="text-2xl my-3">3. Design your own furniture to make it complete</p>
                 <p className="text-2xl my-3">4. Add your project to the gallery!</p>
                 <p className="text-2xl my-3">5. Get a grant for your own mini figure to live in your box!</p>
@@ -97,10 +91,9 @@ export default function Home() {
                 <h1 className="font-bold text-2xl">Submission Requirements</h1>
                 <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
                   <div className="text-xl space-y-4">
-                    <p></p>
                     <p>★ Files submitted must be .step and assembly files .gltf</p>
                     <p>★ All design hours must be tracked with <a href="https://lapse.hackclub.com/">Lapse</a> including art, cad, and assembly.</p>
-                    <p>★ You can use other designs from the Gallery, however your room needs to be original and have atleast 5 items designed by yourself.</p>
+                    <p>★ You must have a minimum of 5 items designed by yourself.</p>
                   </div>
                   <div className="align-bottom flex items-end justify-center">
                     <Image
