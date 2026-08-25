@@ -42,4 +42,4 @@ You're probably asking, why can't I just make a box? It's take less space for sh
 
 ## Furniture
 
-The gallery isn't up yet, no one has submitted anything! To help you think of ideas, look at the [Pinterest board](https://pin.it/16yJNtShb) I made!
+The gallery isn't up yet, no one has submitted anything! To help you think of ideas, look at the [Pinterest board](https://www.pinterest.com/selenan0745/playhouse-inspo/) I made!
