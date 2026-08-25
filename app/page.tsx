@@ -45,22 +45,24 @@ export default function Home() {
             </div>
           </div>
             {/*How to get started*/}
-            <div className="bg-blue-100 w-full rounded-lg pt-4 p-4 grid grid-cols-2 gap-4">
-              <div className="text-blahaj p-4">
-                <h1 className="font-bold text-2xl">Design your own room!</h1>
-                <p className="text-2xl my-3 py-2">1. Follow the <a href="/guide" className="text-creamsicle underline">guide</a> to create your room to fill on <a href="https://www.onshape.com/">Onshape</a>.</p>
-                <p className="text-2xl my-3 py-2">2. Track your hours using <a href="https://www.lapse.hackclub.com/" className="text-creamsicle underline">Lapse</a>. </p>
-                <p className="text-2xl my-3 py-2">3. Design your own furniture and assemble. </p>
-                <p className="text-2xl my-3 py-2">4. Add your project to the <a href="/gallery" className="text-creamsicle underline">gallery</a>.</p>
-                <p className="text-2xl my-3 py-2">5. Get a grant for your own Smiski to live in your box!</p>
+            <div className="grid w-full grid-cols-1 gap-6 rounded-lg bg-blue-100 p-4 sm:grid-cols-2 sm:gap-4 sm:p-6">
+              <div className="text-blahaj sm:p-2">
+                <h1 className="text-2xl font-bold sm:text-3xl">Design your own room!</h1>
+                <div className="mt-4 space-y-4 text-lg leading-7 sm:text-2xl sm:leading-9">
+                  <p>1. Follow the <a href="/guide" className="underline">guide</a> to create your room to fill on <a href="https://www.onshape.com/">Onshape</a>.</p>
+                  <p>2. Track your hours using <a href="https://www.lapse.hackclub.com/" className="underline">Lapse</a>.</p>
+                  <p>3. Design your own furniture and assemble.</p>
+                  <p>4. Add your project to the <a href="/gallery" className="underline">gallery</a>.</p>
+                  <p>5. Get a grant for your own Smiski to live in your box!</p>
+                </div>
               </div>
-              <div>
+              <div className="flex items-center justify-center">
                 <Image
                   src="/working.png"
                   alt="Working Image"
                   width={400}
                   height={700}
-                  className="object-cover"
+                  className="h-auto w-full max-w-sm object-cover"
                 />
               </div>
             </div>
