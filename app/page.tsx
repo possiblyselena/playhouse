@@ -53,7 +53,7 @@ export default function Home() {
                   <p>2. Track your hours using <a href="https://www.lapse.hackclub.com/" className="underline">Lapse</a>.</p>
                   <p>3. Design your own furniture and assemble.</p>
                   <p>4. Add your project to the <a href="/gallery" className="underline">gallery</a>.</p>
-                  <p>5. Get a grant for your own Smiski to live in your box!</p>
+                  <p>5. Get a grant for your own <a href="https://smiski.com/">Smiski</a> to live in your box!</p>
                 </div>
               </div>
               <div className="flex items-center justify-center">
