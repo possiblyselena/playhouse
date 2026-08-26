@@ -3,7 +3,6 @@ import Image from "next/image";
 import { useState } from "react";
 import { Navbar } from "./components/Navbar";
 import { FaqAccordion } from "./components/FaqAccordion";
-import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import { FooterBar } from "./components/footerbar";
 
 const adjectives: readonly string[] = ["Cozy", "Modern", "Futuristic", "Spooky", "Magical", "Galaxy", "Rainbow", "Dreamy", "Scrappy", "Nighttime", "Underwater", "Space", "Nature", "Vintage", "Whimsical", "Winter", "Spring", "Summer", "Autumn"];
@@ -14,7 +13,6 @@ export default function Home() {
   const [roomIdea, setRoomIdea] = useState("");
 
   function generateRoomIdea() {
-    
     const randomAdjective = adjectives[Math.floor(Math.random() * adjectives.length)];
     const randomRoom = rooms[Math.floor(Math.random() * rooms.length)];
     setRoomIdea(`${randomAdjective} ${randomRoom}`) ;

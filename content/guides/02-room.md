@@ -38,5 +38,7 @@ What we need to do to create a plate with a border gap for the walls to go. You 
 
 2. Extrude the square by 0.25cm
 
+![alt text](/guide/assets/image-17.png)
+
 You're probably asking, why can't I just make a box? It's take less space for shipping and if you want to add things like windows or designs to your walls, it's much easier to print.
 

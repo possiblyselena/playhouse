@@ -12,7 +12,7 @@ Once you submit your project, it'll go into review and once it's approved you ca
 | ------------------------------------------------------------------------------------------------ | ----- |
 | Logged 7+ hours on Hackatime.                                                                    |       |
 | Made an assembly of your Playhouse.                                                              |       |
-| You have a CAD folder with all your furniture .step files in your repo and .svg of the assembly. |       |
+| You have a CAD folder with all your furniture .step files in your repo and .glft of the assembly. |       |
 | You have an art folder with all the drawn files.                                                 |       |
 | The readme.md has a good description and a photo of your render.                                 |       |
 

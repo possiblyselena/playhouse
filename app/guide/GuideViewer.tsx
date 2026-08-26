@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import ModelViewer from "../components/ModelViewer";
 
 type Guide = {
     name: string;
@@ -44,7 +45,20 @@ export function GuideViewer({ guides }: { guides: Guide[] }) {
             </nav>
 
             <article className="markdown-content min-w-0 rounded-lg bg-white/95 p-6 text-blahaj shadow-lg sm:p-10">
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>{selectedGuide.content}</ReactMarkdown>
+                <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
+                    components={{
+                        img({ src, alt, ...props }) {
+                            if (typeof src === "string" && /\.gltf(?:$|\?)/i.test(src)) {
+                                return <ModelViewer src={src} />;
+                            }
+
+                            return <img src={src} alt={alt ?? ""} {...props} />;
+                        },
+                    }}
+                >
+                    {selectedGuide.content}
+                </ReactMarkdown>
                 <div className="mt-10 flex justify-between gap-4 border-t border-blahaj/20 pt-6">
                     <button
                         type="button"
