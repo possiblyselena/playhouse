@@ -24,6 +24,12 @@
   }
 }
 
+@media (max-width: 640px) {
+  .markdown-content img {
+    width: 100%;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -92,4 +98,10 @@ body {
 .markdown-content th {
   background: color-mix(in srgb, var(--color-macaroni) 45%, white);
   font-weight: 700;
+}
+
+.markdown-content img {
+  width: 70%;
+  height: auto;
+  margin: 1rem auto;
 }

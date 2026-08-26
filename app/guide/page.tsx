@@ -26,7 +26,7 @@ export default async function GuidePage() {
     return (
         <div className="min-h-screen bg-[url('/ikeabackground.jpg')] bg-cover bg-fixed font-sans dark:bg-black w-full">
             <Navbar/>
-            <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-6 py-12 sm:px-12">
+            <main className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-6 py-12 sm:px-12">
                 <GuideViewer guides={guides} />
             </main>
             <FooterBar/>

@@ -24,7 +24,7 @@ What we need to do to create a plate with a border gap for the walls to go. You 
 
 ## Side Plate
 
-1. Create a sketch and draw a square. Set the dimensions to 13.75cm by 13.75cm.
+1. Create a new part studio, create a sketch and draw a square. Set the dimensions to 13.75cm by 13.75cm.
 
 ![Side plate sketch](/guide/assets/image-4.png)
 
@@ -32,7 +32,7 @@ What we need to do to create a plate with a border gap for the walls to go. You 
 
 ## Back Plate
 
-1. Create a sketch and draw a square. Set the dimensions to 14cm by 13.75cm.
+1. Create and new part studio, create a sketch and draw a square. Set the dimensions to 14cm by 13.75cm.
 
 ![Back plate sketch](/guide/assets/image-5.png)
 
@@ -40,6 +40,3 @@ What we need to do to create a plate with a border gap for the walls to go. You 
 
 You're probably asking, why can't I just make a box? It's take less space for shipping and if you want to add things like windows or designs to your walls, it's much easier to print.
 
-## Furniture
-
-The gallery isn't up yet, no one has submitted anything! To help you think of ideas, look at the [Pinterest board](https://www.pinterest.com/selenan0745/playhouse-inspo/) I made!
