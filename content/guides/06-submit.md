@@ -6,6 +6,8 @@ Once you submit your project, it'll go into review and once it's approved you ca
 
 - If you don't have access to a 3D printer, you have to go to [#print-legion](https://printlegion.hackclub.com/) and request your parts to be printed.
 
+You can get grants for both!
+
 ## Final checklist
 
 | Requirements                                                                                     | Done? |
