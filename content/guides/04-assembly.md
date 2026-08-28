@@ -16,7 +16,7 @@ How mating works in Onshape is that you have mate connectors, and you can think 
 
 ![alt text](/guide/assets/image-19.png)
 
-You might need to play around wuth your cursor to get the axis to align. But you can also flip the primary axis (blue) and reorient secondary axis (red and yellow) to help. 
+You might need to play around with your cursor to get the axis to align. But you can also flip the primary axis (blue) and reorient secondary axis (red and yellow) to help. 
 
 ![alt text](/guide/assets/image-20.png)
 
