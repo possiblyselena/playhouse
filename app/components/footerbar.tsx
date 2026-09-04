@@ -3,7 +3,7 @@ export function FooterBar() {
         <footer className="flex w-full min-w-0 max-w-full flex-wrap items-center justify-between gap-4 overflow-hidden rounded-lg bg-macaroni p-4 font-semibold">
             <p className="text-blahaj">Made with ❤️ by Selena</p>
             <a href="https://hackclub.com/privacy-and-terms" className="underline text-blahaj">Privacy & Terms</a>
-            <a href="https://hackclub.com/security-bounty" className="underline text-blahaj">Security Bounty</a>
+            <a href="https://forms.hackclub.com/bounty" className="underline text-blahaj">Fufillment Bounty</a>
             <div className="flex items-center gap-4">
                 
             </div>
